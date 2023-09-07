@@ -60,16 +60,16 @@ img{
     display: inline-block;
 }
 
-.linked{
-    height:50px;
-    max-width: 50px;
+.fa-brands{
+    font-size:3rem;
     position: fixed;
     left:50%;
     margin: 0.5rem;
-    box-shadow: none;   
+    box-shadow: none; 
+    position:relative;
 }
 
-.linked:hover{
+.fa-brands:hover{
     box-shadow: 0 0 5px 3px rgba(147, 9, 9, 0.5);
 
 }
