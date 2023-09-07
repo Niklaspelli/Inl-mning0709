@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 3rem;
+}
+
+ a{ 
+    margin-right: 0;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border:black;
+    border-radius: 10%;
+    padding: 8px;
+    outline: 2px black;
+    transition:  250ms ease;
+}
+a:hover{
+    background-color: #000000;
+    color: white;
+}    
+
+li{
+    display: inline-block;
+
+}
+
+nav{
+    display:flex;
+    position: fixed;
+    top: 3%;
+    right: 0;
+    width: 100%;
+    max-width: max-content;
+    height: 1.5rem;
+    
+}
+
+
+h1{
+    color: rgb(226, 17, 17);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: relative;   
+   
+}
+
+img{
+    max-width: 320px;
+    border: 3px solid black;
+    box-shadow: 10px 10px #000000;
+    display: inline-block;
+}
+
+.linked{
+    height:50px;
+    max-width: 50px;
+    position: fixed;
+    left:50%;
+    margin: 0.5rem;
+    box-shadow: none;   
+}
+
+.linked:hover{
+    box-shadow: 0 0 5px 3px rgba(147, 9, 9, 0.5);
+
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white; 
+         
+}
+
+ol{
+    display:flex;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+   padding:5rem;    
+}
+
+.card-bg{
+    color:white;
+    position:relative;
+    background-color: black;
+    mix-blend-mode:multiply;
+    padding:2rem;
+    max-width: 320px;
+    height:425px;
+    opacity: 95%;
+    box-shadow: 15px 15px #373737;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    
+}
+
+.card-bg-kontakt{
+   position: relative;
+    color:white;  
+    background-color: black;
+    padding:2rem;
+    width: 350px;
+    height:425px;
+    opacity: 95%;
+    box-shadow: 15px 15px #373737;
+    flex-direction: column;
+}
+
+.card-space{
+    padding:1rem;
+}
+
+.test{
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.test:hover{
+width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;      
+
+}
+
+input{
+    height: 20px;
+    background-color: whitesmoke;
+} 
+
+textarea{
+    width:300px;
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+button{
+    display:fixed;
+    background-color: black;
+    color:red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+body{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: url(mapp/bakgrund.jpg);
+   background-size: cover;
+   
+
+}
+
+header{
+    position: fixed;
+    top:0;  
+    width:100%;
+    height: 4rem;
+    background-color: rgb(56, 51, 51);
+    mix-blend-mode:multiply;
+}
+.logo{
+   position: fixed;
+   top:0;
+    left: 1%;  
+    color:whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+    opacity: 65%;
+    animation-name: slideInLeft;
+    animation-duration: 1s;   
+    pointer-events: none;
+}
+footer{
+bottom: 0;
+position: fixed;
+height: 4rem;
+width: 100%;
+background-color: rgb(56, 51, 51);;
+scroll-padding-block-end: 100%;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px)       
+    }
+    to {
+        transform: translateX(0)
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+      flex-direction: column; 
+    
+    }   
+}
+  @media screen and (min-width: 300px) {
+
+    .container{
+        display: flex;      
+        align-items: center;
+        align-content: space-between;      
+   
+    }
+    nav{
+      
+        position: fixed;
+        top: 3%;
+        right: 18%;
+        width: 100%;
+        max-width: max-content;
+        height: 1.5rem;
+    }
+}
+
+        
