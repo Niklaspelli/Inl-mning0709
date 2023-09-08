@@ -61,17 +61,18 @@ img{
 }
 
 .fa-brands{
-    font-size:3rem;
-    position: fixed;
-    left:45%;
-    margin: 0.5rem;
-    box-shadow: none; 
-    position:relative;
+    font-size:3rem; 
+    text-align: center;
+    left:50%;   
 }
 
 .fa-brands:hover{
     box-shadow: 0 0 5px 3px rgba(147, 9, 9, 0.5);
+}
 
+.fontawesome{
+    position: fixed;
+    right: 50%;
 }
 
 p{
@@ -233,6 +234,7 @@ scroll-padding-block-end: 100%;
         max-width: max-content;
         height: 1.5rem;
     }
+    
 }
 
         
