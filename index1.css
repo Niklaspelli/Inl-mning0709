@@ -32,7 +32,12 @@ li{
 
 }
 
-nav{
+.lista{
+    display: block;
+    color: red;
+}
+
+ul{
     display:flex;
     position: fixed;
     top: 3%;
@@ -62,7 +67,7 @@ img{
 
 .fa-brands{
     font-size:3rem; 
-    text-align: center;
+    
     left:50%;   
 }
 
@@ -130,7 +135,8 @@ ol{
 
 label{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:white;      
+    color:white; 
+    display: block;     
 
 }
 
