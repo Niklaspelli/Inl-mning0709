@@ -3,14 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 main{
     color: black;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 3rem;
 }
-
  a{ 
     margin-right: 0;
     color: white;
@@ -31,12 +28,10 @@ li{
     display: inline-block;
 
 }
-
 .lista{
     display: block;
     color: red;
 }
-
 ul{
     display:flex;
     position: fixed;
@@ -47,8 +42,6 @@ ul{
     height: 1.5rem;
     
 }
-
-
 h1{
     color: rgb(226, 17, 17);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -57,40 +50,33 @@ h1{
     display: relative;   
    
 }
-
 img{
     max-width: 320px;
     border: 3px solid black;
     box-shadow: 10px 10px #000000;
     display: inline-block;
 }
-
 .fa-brands{
     font-size:3rem; 
     
     left:50%;   
 }
-
 .fa-brands:hover{
     box-shadow: 0 0 5px 3px rgba(147, 9, 9, 0.5);
 }
-
 .fontawesome{
     position: fixed;
     right: 50%;
 }
-
 p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white; 
          
 }
-
 p::first-letter{
     font-size: 1.5rem;
     color: red;
 }
-
 ol{
     display:flex;
     margin: 0;
@@ -98,11 +84,9 @@ ol{
     text-align: center;
     align-items: center;
 }
-
 .container{
    padding:5rem;    
 }
-
 .card-bg{
     color:white;
     position:relative;
@@ -116,7 +100,6 @@ ol{
     animation-duration: 1s;
     
 }
-
 .card-bg-kontakt{
    position: relative;
     color:white;  
@@ -128,7 +111,6 @@ ol{
     box-shadow: 15px 15px #373737;
     flex-direction: column;
 }
-
 .card-space{
     padding:1rem;
 }
@@ -137,9 +119,7 @@ label{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white; 
     display: block;     
-
 }
-
 input{
     height: 20px;
     background-color: whitesmoke;
@@ -173,10 +153,7 @@ body{
    min-height: 100vh;
    background: url(mapp/bakgrund.jpg);
    background-size: cover;
-   
-
 }
-
 header{
     position: fixed;
     top:0;  
@@ -239,8 +216,5 @@ scroll-padding-block-end: 100%;
         width: 100%;
         max-width: max-content;
         height: 1.5rem;
-    }
-    
-}
-
-        
+    }  
+}     
