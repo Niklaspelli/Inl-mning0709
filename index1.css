@@ -36,7 +36,7 @@ ul{
     display:flex;
     position: fixed;
     top: 3%;
-    right: 0;
+    right: 3%;
     width: 100%;
     max-width: max-content;
     height: 1.5rem;
@@ -199,6 +199,7 @@ scroll-padding-block-end: 100%;
       flex-direction: column; 
     
     }   
+    
 }
   @media screen and (min-width: 300px) {
 
@@ -208,7 +209,7 @@ scroll-padding-block-end: 100%;
         align-content: space-between;      
    
     }
-    nav{
+    ul{
       
         position: fixed;
         top: 3%;
